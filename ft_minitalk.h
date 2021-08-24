@@ -6,19 +6,14 @@
 #include <signal.h>
 #include <stdlib.h>
 
-typedef struct s_node {
-	struct s_node	*next;
-	int				data;
-}t_node;
-
-typedef struct s_list {
-	t_node	*head;
-	int		count;
-}t_list;
+typedef struct s_character {
+	char	c;
+	int		n;
+}t_character;
 
 /* client.c */
 int	ft_atoi(const char *str);
-void	send_msg(char *str, char c);
+void	send_msg(int pid, char c);
 
 /* server.c */
 
