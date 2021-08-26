@@ -11,11 +11,5 @@ typedef struct s_character {
 	int		n;
 }t_character;
 
-/* client.c */
-int	ft_atoi(const char *str);
-void	send_msg(int pid, char c);
-
-/* server.c */
-
 
 #endif

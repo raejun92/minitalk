@@ -9,7 +9,7 @@ void	zero()
 
 void	one()
 {
-	g_character.c = g_character.c | (1 << g_character.n);
+	g_character.c = g_character.c | (1 << g_character.n); // 1을 n번 left shift해서 c와 합침
 	g_character.n++;
 }
 

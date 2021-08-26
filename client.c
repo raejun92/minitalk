@@ -56,7 +56,7 @@ void	send_msg(int pid, char c)
 			kill(pid, SIGUSR2);
 		c = c >> 1;
 		usleep(1000);
-	}
+ 	}
 }
 
 int main(int argc, char ** argv)
@@ -75,7 +75,3 @@ int main(int argc, char ** argv)
 	}
 	return (0);
 }
-
-/* 질문
-2 client동작을 빠르게 반복 수행할 때 제대로 받아지나
- */
