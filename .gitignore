@@ -8,5 +8,4 @@ test*.c
 test*
 server
 client
-.gitignore
-/liudok
+*.o

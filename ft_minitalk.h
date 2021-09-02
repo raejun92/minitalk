@@ -11,5 +11,9 @@ typedef struct s_character {
 	int		n;
 }t_character;
 
+/* ft_utils.c */
+char	*ft_itoa(int n);
+int		ft_atoi(const char *str);
+int		ft_strlen(const char *s);
 
 #endif
